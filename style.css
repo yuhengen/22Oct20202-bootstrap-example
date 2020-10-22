@@ -1,0 +1,49 @@
+@font-face {
+    font-family: sao;
+    src: url("fonts/SAOWelcomeTT-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: saos;
+    src: url("fonts/SAOUI-Regular.otf");
+  }
+  
+  body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+  }
+
+  .saofontw {
+    font-family: sao;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top:20px;
+  }
+
+  .saofont {
+    font-family: saos;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .navbar {
+    font-family: sao;
+    font-size: 20px;
+    width: 100vw;
+    position:fixed;
+    opacity:0.9;
+  }
+  
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+
+  .saobanner {
+      width: 100vw;
+  }
+
+  .gpdl {
+    display: block;
+    margin: auto;
+  }
