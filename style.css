@@ -15,7 +15,7 @@
 
   .saofontw {
     font-family: sao;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     color: white;
     padding-top:20px;
@@ -29,10 +29,11 @@
   
   .navbar {
     font-family: sao;
-    font-size: 20px;
+    font-size: 25px;
     width: 100vw;
     position:fixed;
     opacity:0.9;
+    z-index: 2
   }
   
   .navbar-brand {
@@ -43,18 +44,33 @@
       width: 100vw;
   }
 
+  .download {
+      margin-top:-5em;
+  }
+
   .gpdl {
     display: block;
     margin: auto;
   }
 
+  #characters {
+      background: rgba(0, 0, 0, 0.4);
+      padding-bottom:50px;
+  }
+
   .charbox {
       display:flex;
+      flex-wrap:wrap;
   }
 
   .card {
       background-color:black;
       margin: auto !important;
+      border-style:solid;
+      border-width:5px;
+      border-color:white;
+      border-radius: 15px;
+      margin:20px;
   }
 
   .card-title {
@@ -70,3 +86,42 @@
       font-size: 20px;
       color:white;
   }
+
+  .card-img-top {
+      border-radius: 8px;
+    background-color:black;
+    /* animation: glow 1s infinite alternate; */
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px -10px #aef4af;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #aef4af;
+    }
+  }
+
+#about{
+    background: rgba(0, 0, 0, 0.4);
+    width:85vw;
+    margin: auto;
+    border-radius:30px;
+}
+
+.about-title {
+    font-family: sao;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top:40px;
+}
+.about-desc {
+    font-family: saos;
+    font-size: 30px;
+    text-align:center;
+    color:white;
+    padding-top:50px;
+    padding-left:60px;
+    padding-right:60px;
+}
