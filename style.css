@@ -47,3 +47,26 @@
     display: block;
     margin: auto;
   }
+
+  .charbox {
+      display:flex;
+  }
+
+  .card {
+      background-color:black;
+      margin: auto !important;
+  }
+
+  .card-title {
+      font-family: saos;
+      font-size: 30px;
+      font-weight: bold;
+      text-align:center;
+      color:white;
+  }
+
+  .card-text {
+      font-family: sao;
+      font-size: 20px;
+      color:white;
+  }
